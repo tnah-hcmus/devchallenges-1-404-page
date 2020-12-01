@@ -1,0 +1,118 @@
+.title {
+    position: absolute;
+    left: 0.55em;
+    top: 0.85em;
+
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    margin: 0 auto;
+
+    color: #333333;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.divide {
+    width: 50vw;
+    display: flex;
+}
+.main-text {
+    margin: auto 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.picture {
+    margin: auto;
+    max-width: 80%;
+}
+.back-button {
+    width: 40%;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.25em;
+    /* identical to box height */
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5%;
+    border: 0;
+    margin: 5%;
+    margin-left: 0;
+    flex-grow: 1;
+}
+.text {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5em;
+    line-height: 1em;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin-top: 15%;
+}
+.description {
+    width: 70%;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 2em;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+.copyright {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75em;
+    line-height: 1em;
+    color: #333333;
+}
+.credit-container {
+    width: 100vw;
+    text-align: center;
+}
+@media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+    .divide {
+        width: 100vw;
+    }
+    .picture {
+        margin-top: 14vh;
+        margin-bottom: 2vh;
+    }
+    .text {
+        font-size: 2.5em;
+    }
+    .description {
+        width: 90%;
+        font-size: 1em;
+    }
+    .back-button {
+        width: 70%;
+    }
+    .main-text {
+        margin-bottom: 5vh;
+    }
+}
