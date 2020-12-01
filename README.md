@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">404-Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -25,12 +25,16 @@
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
-
-  - [Built With](#built-with)
+- [Overview](#overview)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+## Overview
 
+![screenshot](https://user-images.githubusercontent.com/56346763/100724875-ef510300-33f5-11eb-8379-0a053e9bb50c.png)
+
+- A simple 404 static page, layout with Flexbox, one of my front-end pet project
 
 ### Built With
 
@@ -56,5 +60,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/tnah-hcmus)
+- GitHub [@tnah-hcmus](https://github.com/tnah-hcmus)
 - Facebook [@lcf.star](https://www.facebook.com/lcf.star/)
