@@ -34,7 +34,9 @@
 
 ![screenshot](https://user-images.githubusercontent.com/56346763/100724875-ef510300-33f5-11eb-8379-0a053e9bb50c.png)
 
-- A simple 404 static page, layout with Flexbox, one of my front-end pet project
+- A simple 404 static page, layout with Flexbox, one of my front-end pet project collection
+- This is my very first project on my own Front-end coding challenge to review my knowledge about CSS. 
+- It's been a long time since I use plain CSS and start use CSS framework like Bootstrap, AntDesign, MaterialUI. So I decided start with this very basic project to review my knowledge
 
 ### Built With
 
